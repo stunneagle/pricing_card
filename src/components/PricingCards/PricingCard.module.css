@@ -1,0 +1,90 @@
+.card{
+    max-width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px
+    color-mix(in srgb, black , transparent 80%);
+    
+}
+.card--startup{
+    --price-theme: #5a5679;
+    --price-theme-darker:#29244a;
+    --padding-y: 40px;
+}
+.card--pro{
+    --price-theme: #ff7473;
+    --price-theme-darker:#d53534;
+    --padding-y: 70px;
+}
+.card--enterprise{
+    --price-theme: #47b8e0;
+    --price-theme-darker: #187fd6;
+    --padding-y: 40px;
+}
+.card__wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding: var(--padding-y) 10px;
+}
+.card__label{
+    color: black;
+    font-weight: bold;
+}
+
+.card__image{
+    max-width: 70px;
+    margin: 40px 0;
+    
+}
+.card__price-label{
+    text-align: center;
+    color: var(--price-theme);
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0dfdfdd;
+    width: 100%;
+}
+.card__price-figure{
+    font-weight: bold;
+}
+.card__price-duration{
+    font-size: 0.8rem;
+    margin-left: 4px;
+}
+.card__features-label{
+    color: var(--price-theme);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    text-align: center;
+   margin: 10px 0;
+    letter-spacing: 1.5px;
+}
+.card__features{
+    color: black;
+    padding-left: 10px;
+    font-size: 0.5rem;
+    
+}
+.card__feature{
+    margin-bottom: 15px;
+}
+.card__feature-icon{
+    background-color: color-mix(in srgb, var(--price-theme), white 40%);
+    height: 10px;
+    width: 10px;
+    padding: 2px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.card__button{
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    background-color: var(--price-theme);
+    color: white;
+    border: 1px solid var(--price-theme-darker);
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    
+}
